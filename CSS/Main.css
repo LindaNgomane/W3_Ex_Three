@@ -7,26 +7,42 @@ nav{
     width: 100%;
     height: 100px;
     background:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     
 }
 
 header{
     width: -100%;
-    height: 60vh;
+    height: 50vh;
     background: lightgray;
-   padding-left: 50px ;
+   padding-left: 230px ;
     padding-top: 150px;
+
 }
+
 
 section{
         width: 69%;
-        height: 300px;
         padding-left:15%;
         padding-right:10%;
         padding-top: 25px;
-        padding-bottom: 25px; ;
+        padding-bottom: 25px;
 
 }
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    overflow: auto;
+}
+
 
 .col-12{
     width: 100%;
@@ -36,3 +52,103 @@ section{
     color: white;
 
 }
+
+
+.third{
+    height: 340px;    
+}
+
+.col-4{
+
+    width: 31.33%;
+    height:300px;
+    background-color: gray;
+    text-align: center ;
+    color: white;
+    margin: 1%;
+    float: left;
+
+}
+
+
+.fourth{
+        height: 340px;
+}
+
+.col-3{
+    width: 23%;
+    height:300px;
+    background-color: gray;
+    text-align: center ;
+    color: white;
+    margin: 1%;
+    float: left;
+
+}
+
+.half{
+        height: 340px ;
+        padding-bottom:100px;
+}
+
+.col-6{
+    width: 48%;
+    height:300px;
+    background-color: gray;
+    text-align: center ;
+    color: white;
+    margin: 1%;
+    float: left;
+}
+
+
+.Logo{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.nav-con{
+    width: 550px;
+    height: 50px;
+    display: flex;
+    margin-top: 5px;
+    float: right;
+}
+
+.nav-con ul{
+    list-style: none;
+
+}
+
+
+
+.nav-con li{
+    height: 28px;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 20px ;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-left:  10px; ;
+    padding-top: 7px;
+    float: left;
+    
+   
+}
+
+
+   
+
+
+
+.nav-con li:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.active{
+    background-color: black !important;
+    color: white;
+} 
